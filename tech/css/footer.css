@@ -1,0 +1,49 @@
+footer.footer {
+background: linear-gradient(#d7d7d7, 50%, #545458);
+width: 100%;
+margin-top: auto;
+padding: 60px 100px;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+div.footer-col{
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+div.footer-col > h2{
+margin-bottom: 8px;
+font-size: 24px;
+}
+
+div.footer-col > span,
+div.footer-col > a{
+margin-top: 8px;
+font-size: 18px;
+}
+
+div.footer-col > a.twitter{
+padding-left: 20px;
+background: url(../img/twitter.png) no-repeat 0 2px;
+}
+
+div.footer-col > a.instagram{
+padding-left: 20px;
+background: url(../img/instagram.png) no-repeat 0 2px;
+}
+
+div.footer-col > a.facebook{
+padding-left: 20px;
+background: url(../img/facebook.png) no-repeat 0 2px;
+}
+
+div.footer-copyright{
+width: 100%;
+margin-top: 60px;
+text-align: center;
+font-size: 15px;
+}

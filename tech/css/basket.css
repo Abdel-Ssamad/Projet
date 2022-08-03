@@ -1,0 +1,28 @@
+hr.basket-hr{
+height: 3px;
+margin-top: 28px;
+background-color: #000;
+}
+
+div.basket-information{
+margin-top: 28px;
+}
+
+span.basket-price{
+font-size: 19px;
+font-weight: bold;
+}
+
+p.basket-disclaimer{
+margin-top: 14px;
+font-size: 14px;
+}
+
+button.basket-button{
+float: right;
+margin-top: 30px;
+padding: 10px;
+border-radius: 4px;
+border-color: lightgray;
+cursor: pointer;
+}

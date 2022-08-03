@@ -1,0 +1,61 @@
+header {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 100px 0;
+background: linear-gradient(#515151, 55%, #c7c7c8);
+}
+
+a.header-logo{
+height: 150px;
+width: 150px;
+background: url("../img/logo.png") no-repeat;
+}
+
+/* Barre de recherche */
+
+form.header-search{
+height: 38px;
+display: flex;
+align-items: center;
+}
+
+input.search-input{
+height: 100%;
+width: 250px;
+padding: 4px;
+background-color: #9d9c9c;
+border-radius: 3px;
+font-size: 20px;
+}
+
+button.search-button{
+height: 30px;
+width: 30px;
+margin-left: 14px;
+background: url("../img/loupe.png") no-repeat;
+border: none;
+filter: brightness(55);
+cursor: pointer;
+}
+
+nav.header-nav{
+display: flex;
+align-items: center;
+}
+
+a.nav-link{
+margin-right: 18px;
+font-size: 18px;
+}
+
+a.nav-link:last-child{
+margin-right: 0;
+}
+
+a.nav-link.basket{
+height: 22px;
+width: 28px;
+background-image: url(../img/basket.png);
+}

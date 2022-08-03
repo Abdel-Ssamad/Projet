@@ -1,0 +1,161 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html{
+font: normal 16px sans-serif;
+color: #555;
+}
+
+ul, nav{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+cursor: pointer;
+opacity: 0.9;
+}
+
+a:hover{
+opacity: 1;
+}
+
+input{
+background: none;
+-webkit-appearance: none;
+-ms-appearance:none;
+-moz-appearance: none;
+appearance: none;
+outline: none;
+border-color: transparent;
+border-radius: 3px;
+}
+
+input:focus::placeholder{
+color: transparent;
+}
+
+input::placeholder{
+transition: color 0.3s ease;
+color: #2b2b2b;
+left: 2px;
+}
+
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: #FFF;
+color: #000;
+}
+
+    div.main{
+    width: 80%;
+    max-width: 1000px;
+    margin: 60px auto;
+    }
+    
+        h1.main-title{
+        margin: 0 auto;
+        font-size: 30px;
+        }
+
+        p.main-description{
+        margin-top: 30px;
+        display: block;
+        font-size: 18px;
+        }
+
+        div.main-success,
+        div.main-error{
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 18px;
+        color: white;
+        }
+
+        div.main-error{
+        background-color: #e83f3f;
+        }
+
+        div.main-success{
+        background-color: #3bb14b;
+        }
+    
+    div.box{
+    height: auto;
+    width: 400px;
+    margin: auto;
+    padding: 28px 18px;
+    background: linear-gradient(#343434, 40%, white);
+    box-shadow: 5px 10px 10px #757575;
+    border-radius: 5px;
+    }
+
+        h1.box-title{
+        margin-top: 6px;
+        font-size: 40px;
+        font-weight: 550;
+        color: #ffffff;
+        text-align: center;
+        }
+
+        hr.box-hr{
+        margin-top: 10px;
+        border-top: solid 1px;
+        color: #ffffff;
+        }
+
+        form.box-form{
+        margin-top: 20px;
+        overflow: hidden;
+        }
+
+            form.box-form hr{
+            height: 2px;
+            width: 90%;
+            margin: 28px auto 0 auto;
+            }
+
+            input.box-input,
+            label.box-label{
+            width: 90%;
+            display: block;
+            margin: 28px auto 0 auto;
+            font-size: 17px;
+            border-radius: 2px;
+            }
+
+            label.box-label{
+            padding: 2px;
+            }
+
+            button.box-button{
+            height: 30px;
+            width: 70%;
+            margin: 28px auto;
+            display: block;
+            background-color: rgb(0, 0, 0);
+            color: #ffffff;
+            font-size: 23px;
+            }
+
+        a.box-link{
+        display: block;
+        text-align: center;    
+        }
+
+        a.box-link:hover{
+        text-decoration: underline;
+        }
+
+        hr{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
